@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "KSFontSizeTestVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[KSFontSizeTestVC new]];
+    [self.window setRootViewController:navi];
+    
+    float fontSize = [[NSUserDefaults standardUserDefaults] floatForKey:FontSize];
+    if (fontSize==0) {
+
+            [[NSUserDefaults standardUserDefaults] setFloat:BIG_SIZE forKey:FontSize];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 

@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C8E31671E84B77F00986F2C /* KSFontSizeTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E31651E84B77F00986F2C /* KSFontSizeTestVC.m */; };
+		3C8E31681E84B77F00986F2C /* KSFontSizeTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8E31661E84B77F00986F2C /* KSFontSizeTestVC.xib */; };
+		3C8E31731E85118600986F2C /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8E31711E85118600986F2C /* KSViewController.m */; };
+		3C8E31741E85118600986F2C /* KSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8E31721E85118600986F2C /* KSViewController.xib */; };
 		3C9919661E839DD300B34E22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9919651E839DD300B34E22 /* main.m */; };
 		3C9919691E839DD300B34E22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9919681E839DD300B34E22 /* AppDelegate.m */; };
-		3C99196C1E839DD300B34E22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C99196B1E839DD300B34E22 /* ViewController.m */; };
+		3C99196C1E839DD300B34E22 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C99196B1E839DD300B34E22 /* BaseViewController.m */; };
 		3C99196F1E839DD300B34E22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C99196D1E839DD300B34E22 /* Main.storyboard */; };
 		3C9919711E839DD300B34E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9919701E839DD300B34E22 /* Assets.xcassets */; };
 		3C9919741E839DD300B34E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9919721E839DD300B34E22 /* LaunchScreen.storyboard */; };
@@ -35,12 +39,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C8E31641E84B77F00986F2C /* KSFontSizeTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSFontSizeTestVC.h; sourceTree = "<group>"; };
+		3C8E31651E84B77F00986F2C /* KSFontSizeTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSFontSizeTestVC.m; sourceTree = "<group>"; };
+		3C8E31661E84B77F00986F2C /* KSFontSizeTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSFontSizeTestVC.xib; sourceTree = "<group>"; };
+		3C8E316F1E84BF7500986F2C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3C8E31701E85118600986F2C /* KSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		3C8E31711E85118600986F2C /* KSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		3C8E31721E85118600986F2C /* KSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSViewController.xib; sourceTree = "<group>"; };
 		3C9919611E839DD300B34E22 /* FontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9919651E839DD300B34E22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C9919671E839DD300B34E22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C9919681E839DD300B34E22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C99196A1E839DD300B34E22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C99196B1E839DD300B34E22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C99196A1E839DD300B34E22 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3C99196B1E839DD300B34E22 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		3C99196E1E839DD300B34E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C9919701E839DD300B34E22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C9919731E839DD300B34E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +114,15 @@
 			children = (
 				3C9919671E839DD300B34E22 /* AppDelegate.h */,
 				3C9919681E839DD300B34E22 /* AppDelegate.m */,
-				3C99196A1E839DD300B34E22 /* ViewController.h */,
-				3C99196B1E839DD300B34E22 /* ViewController.m */,
+				3C99196A1E839DD300B34E22 /* BaseViewController.h */,
+				3C99196B1E839DD300B34E22 /* BaseViewController.m */,
+				3C8E31641E84B77F00986F2C /* KSFontSizeTestVC.h */,
+				3C8E31651E84B77F00986F2C /* KSFontSizeTestVC.m */,
+				3C8E31661E84B77F00986F2C /* KSFontSizeTestVC.xib */,
+				3C8E31701E85118600986F2C /* KSViewController.h */,
+				3C8E31711E85118600986F2C /* KSViewController.m */,
+				3C8E31721E85118600986F2C /* KSViewController.xib */,
+				3C8E316F1E84BF7500986F2C /* PrefixHeader.pch */,
 				3C99196D1E839DD300B34E22 /* Main.storyboard */,
 				3C9919701E839DD300B34E22 /* Assets.xcassets */,
 				3C9919721E839DD300B34E22 /* LaunchScreen.storyboard */,
@@ -249,8 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8E31741E85118600986F2C /* KSViewController.xib in Resources */,
 				3C9919741E839DD300B34E22 /* LaunchScreen.storyboard in Resources */,
 				3C9919711E839DD300B34E22 /* Assets.xcassets in Resources */,
+				3C8E31681E84B77F00986F2C /* KSFontSizeTestVC.xib in Resources */,
 				3C99196F1E839DD300B34E22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C99196C1E839DD300B34E22 /* ViewController.m in Sources */,
+				3C99196C1E839DD300B34E22 /* BaseViewController.m in Sources */,
 				3C9919691E839DD300B34E22 /* AppDelegate.m in Sources */,
+				3C8E31671E84B77F00986F2C /* KSFontSizeTestVC.m in Sources */,
 				3C9919661E839DD300B34E22 /* main.m in Sources */,
+				3C8E31731E85118600986F2C /* KSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +448,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9PP5QAAG5K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/shuliuyang/MySelf/FontDemo/FontDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = FontDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kython.FontDemo;
@@ -438,6 +462,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9PP5QAAG5K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/shuliuyang/MySelf/FontDemo/FontDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = FontDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kython.FontDemo;
@@ -514,6 +540,7 @@
 				3C9919901E839DD300B34E22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9919911E839DD300B34E22 /* Build configuration list for PBXNativeTarget "FontDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +549,7 @@
 				3C9919931E839DD300B34E22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9919941E839DD300B34E22 /* Build configuration list for PBXNativeTarget "FontDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +558,7 @@
 				3C9919961E839DD300B34E22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
